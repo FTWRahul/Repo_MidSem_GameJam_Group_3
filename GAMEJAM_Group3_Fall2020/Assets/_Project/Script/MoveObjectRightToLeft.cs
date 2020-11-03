@@ -1,21 +1,22 @@
-﻿using System.Collections;
+﻿using Player;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveObjectRightToLeft : MonoBehaviour
+public class MoveObjectRightToLeft : BasePlayerController
 {
     public float Speed;
-    Rigidbody2D MovingObject;
+    Rigidbody2D _rigidbody2D;
 
     private void Awake()
     {
-        MovingObject = GetComponent<Rigidbody2D>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        MovingObject.velocity = new Vector2(-Speed, 0);
+        _rigidbody2D.velocity = new Vector2(-Speed, 0);
     }
 
     // Update is called once per frame
