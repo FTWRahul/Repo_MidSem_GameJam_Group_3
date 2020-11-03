@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GroundMovement : MonoBehaviour
+public class ScrollMovement : MonoBehaviour
 {
 
     Material material;
