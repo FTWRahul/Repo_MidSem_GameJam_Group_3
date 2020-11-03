@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class GhostPlayerControls : MonoBehaviour
 {
-    public float GhostMoveDistance = 1;
+    public float GhostMoveDistance = 350;
     Rigidbody2D Ghost;
     float Move;
 
@@ -19,11 +19,11 @@ public class GhostPlayerControls : MonoBehaviour
     void Update()
     {
         Move = Input.GetAxis("Vertical");
-        moveTranslation();
+        GhostMovement();
     }
 
-    void moveTranslation()
+    void GhostMovement()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y + (Move * GhostMoveDistance * Time.deltaTime), transform.position.z);
+        Ghost.velocity = new Vector3(0, Move * GhostMoveDistance * Time.deltaTime, 0);
     }
 }
