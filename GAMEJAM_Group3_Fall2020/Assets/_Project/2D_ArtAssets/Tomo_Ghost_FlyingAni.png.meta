@@ -14,93 +14,6 @@ TextureImporter:
   - first:
       213: 7173994722429293466
     second: Tomo_Ghost_FlyingAni_3
-  - first:
-      213: 2112980646761400830
-    second: Tomo_Ghost_FlyingAni_4
-  - first:
-      213: 7594256188152170756
-    second: Tomo_Ghost_FlyingAni_5
-  - first:
-      213: -287436489274859022
-    second: Tomo_Ghost_FlyingAni_6
-  - first:
-      213: -5282528619788308353
-    second: Tomo_Ghost_FlyingAni_7
-  - first:
-      213: -8098273016738724123
-    second: Tomo_Ghost_FlyingAni_8
-  - first:
-      213: -5043172473959568799
-    second: Tomo_Ghost_FlyingAni_9
-  - first:
-      213: -5509907097027205267
-    second: Tomo_Ghost_FlyingAni_10
-  - first:
-      213: -5041142924709536706
-    second: Tomo_Ghost_FlyingAni_11
-  - first:
-      213: 2755798646066019000
-    second: Tomo_Ghost_FlyingAni_12
-  - first:
-      213: 299475772517815066
-    second: Tomo_Ghost_FlyingAni_13
-  - first:
-      213: -8453357593679843448
-    second: Tomo_Ghost_FlyingAni_14
-  - first:
-      213: 6261617275044222975
-    second: Tomo_Ghost_FlyingAni_15
-  - first:
-      213: 6853151286252725528
-    second: Tomo_Ghost_FlyingAni_16
-  - first:
-      213: 7100545709542136284
-    second: Tomo_Ghost_FlyingAni_17
-  - first:
-      213: 5478204687634598747
-    second: Tomo_Ghost_FlyingAni_18
-  - first:
-      213: -3347358705930535675
-    second: Tomo_Ghost_FlyingAni_19
-  - first:
-      213: -8754978742529660040
-    second: Tomo_Ghost_FlyingAni_20
-  - first:
-      213: -7366074112549208441
-    second: Tomo_Ghost_FlyingAni_21
-  - first:
-      213: -7441689666255215431
-    second: Tomo_Ghost_FlyingAni_22
-  - first:
-      213: 1259095818841015669
-    second: Tomo_Ghost_FlyingAni_23
-  - first:
-      213: -7616423701034139880
-    second: Tomo_Ghost_FlyingAni_24
-  - first:
-      213: 5748255448380510493
-    second: Tomo_Ghost_FlyingAni_25
-  - first:
-      213: 8732341138396318900
-    second: Tomo_Ghost_FlyingAni_26
-  - first:
-      213: 6195202203635704219
-    second: Tomo_Ghost_FlyingAni_27
-  - first:
-      213: 4479838761551454254
-    second: Tomo_Ghost_FlyingAni_28
-  - first:
-      213: 4162146874679255441
-    second: Tomo_Ghost_FlyingAni_29
-  - first:
-      213: -854871162983411247
-    second: Tomo_Ghost_FlyingAni_30
-  - first:
-      213: -8846029955480766132
-    second: Tomo_Ghost_FlyingAni_31
-  - first:
-      213: 3108177114102356200
-    second: Tomo_Ghost_FlyingAni_32
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -308,7 +221,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a7cef9a3b68b3204cb1055fdbe8f0dd9
+    spriteID: 45109930c53771c4c84d8d4e0837b997
     internalID: 0
     vertices: []
     indices: 
