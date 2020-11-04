@@ -6,13 +6,14 @@ public class PlatformSpawner : MonoBehaviour
 {
     public float SpawnRate;
     float NextSpawnTime;
-
-    public GameObject[] Platforms;
+    public GameObject[] Prefab;
+    ObjectPooler objectPooler;
 
     // Start is called before the first frame update
     void Start()
     {
         NextSpawnTime = Time.time;
+        objectPooler = ObjectPooler.Instance;
     }
 
     // Update is called once per frame
@@ -20,9 +21,7 @@ public class PlatformSpawner : MonoBehaviour
     {
         if (NextSpawnTime < Time.time)
         {
-            Instantiate(Platforms[Random.Range(0, Platforms.Length)], 
-                new Vector3(transform.position.x, transform.position.y, transform.position.z), 
-                Quaternion.identity);
+            objectPooler.SpawnFromPool(Prefab[Random.Range(0, Prefab.Length)], transform.position, Quaternion.identity);
             NextSpawnTime += SpawnRate;
         }
     }
