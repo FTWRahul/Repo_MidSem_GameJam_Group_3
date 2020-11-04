@@ -15,7 +15,7 @@ public class MoveObjectRightToLeft : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MovingObject.velocity = new Vector2(-Speed, 0);
+        MovingObject.velocity = new Vector2(-Speed * GameManager.WorldSimulationSpeed, 0);
     }
 
     // Update is called once per frame
