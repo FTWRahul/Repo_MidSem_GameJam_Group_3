@@ -5,7 +5,7 @@ namespace Player
     /// <summary>
     /// The controls when the player is in his creature mode.
     /// </summary>
-    public class CreaturePlayerControls : BasePlayerController
+    public class CreaturePlayerControls : BasePlayerControls
     {
         [Header("Parameters")]
         //Exposed fields

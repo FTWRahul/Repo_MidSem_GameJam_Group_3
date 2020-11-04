@@ -5,10 +5,9 @@ using UnityEngine;
 
 namespace Player 
 {
-    public class GhostPlayerControls : BasePlayerController
+    public class GhostPlayerControls : BasePlayerControls
     {
         public float GhostMoveDistance = 350;
-        Rigidbody2D _rigidbody2D;
         float Move;
 
         // Start is called before the first frame update
