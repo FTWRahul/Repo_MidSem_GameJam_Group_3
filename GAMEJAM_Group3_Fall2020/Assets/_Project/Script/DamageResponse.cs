@@ -15,6 +15,7 @@ public class DamageResponse : MonoBehaviour , ICollidable
         set => onDamageTaken = value;
     }
 
+    [ContextMenu("TestDamage")]
     public virtual void TakeDamage()
     {
         onDamageTaken?.Invoke();
