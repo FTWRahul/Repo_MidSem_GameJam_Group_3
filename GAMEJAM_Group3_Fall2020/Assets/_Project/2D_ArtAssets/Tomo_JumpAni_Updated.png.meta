@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: f71e74a98aa91c944bebc79cc7858daa
+guid: 2e0c0be2a434cd140bc7315d9ba944b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7182076118129891296
-    second: Tomo_JumpAni_0
+      213: 6768771257250058476
+    second: Tomo_JumpAni_Updated_0
   - first:
-      213: 1100054520837562426
-    second: Tomo_JumpAni_1
+      213: -9025386331075651598
+    second: Tomo_JumpAni_Updated_1
   - first:
-      213: -1121286867955350150
-    second: Tomo_JumpAni_2
+      213: 8428529492991565374
+    second: Tomo_JumpAni_Updated_2
+  - first:
+      213: -1486762330693265337
+    second: Tomo_JumpAni_Updated_3
+  - first:
+      213: -5449841248747604205
+    second: Tomo_JumpAni_Updated_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -132,7 +138,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tomo_JumpAni_0
+      name: Tomo_JumpAni_Updated_0
       rect:
         serializedVersion: 2
         x: 0
@@ -146,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e7d2fa5d2cdba360800000000000000
-      internalID: 7182076118129891296
+      spriteID: ce0934298918fed50800000000000000
+      internalID: 6768771257250058476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomo_JumpAni_1
+      name: Tomo_JumpAni_Updated_1
       rect:
         serializedVersion: 2
         x: 200
@@ -167,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a30e51422cd244f00800000000000000
-      internalID: 1100054520837562426
+      spriteID: 2f7d19f43f26fb280800000000000000
+      internalID: -9025386331075651598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomo_JumpAni_2
+      name: Tomo_JumpAni_Updated_2
       rect:
         serializedVersion: 2
         x: 400
@@ -188,8 +194,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a750630d8836070f0800000000000000
-      internalID: -1121286867955350150
+      spriteID: e3e5aa8eae628f470800000000000000
+      internalID: 8428529492991565374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomo_JumpAni_Updated_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74898959985fd5be0800000000000000
+      internalID: -1486762330693265337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomo_JumpAni_Updated_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317b02e32464e54b0800000000000000
+      internalID: -5449841248747604205
       vertices: []
       indices: 
       edges: []
@@ -197,7 +245,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6f11b8a951e6763428b8e6a28d36c5cf
+    spriteID: ee6b91c8a78f1c24cb8daf943b2761ef
     internalID: 0
     vertices: []
     indices: 
