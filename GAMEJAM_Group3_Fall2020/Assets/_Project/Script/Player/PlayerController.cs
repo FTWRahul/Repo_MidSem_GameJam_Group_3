@@ -12,9 +12,11 @@ namespace Player
         
         private void Start()
         {
+            GameObject tempObject = GetComponentInChildren<GhostPlayerControls>().gameObject;
             _ghostPlayer = GetComponentInChildren<GhostPlayerControls>();
             _creaturePlayer = GetComponentInChildren<CreaturePlayerControls>();
             _creaturePlayer.playerDamageResponse.OnDamageTaken.AddListener(SwitchToGhost);
+            tempObject.SetActive(false);
         }
 
         public void SwitchToGhost()

@@ -14,7 +14,7 @@ namespace Player
         void Start()
         {
             //_rigidbody2D = GetComponent<Rigidbody2D>();
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
 
         // Update is called once per frame
