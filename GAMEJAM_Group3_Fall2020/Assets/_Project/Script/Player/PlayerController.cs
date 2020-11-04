@@ -33,11 +33,13 @@ namespace Player
             OnDeath?.Invoke();
         }
 
+        [ContextMenu("Switch to player")]
         public void SwitchToCreature()
         {
-            _creaturePlayer.playerDamageResponse.OnDamageTaken.AddListener(SwitchToGhost);
             //Listen again for if player takes damage
-            
+            _creaturePlayer.TurnOn();
+            _ghostPlayer.TurnOff();
+            _creaturePlayer.playerDamageResponse.OnDamageTaken.AddListener(SwitchToGhost);
         }
     }
 }
