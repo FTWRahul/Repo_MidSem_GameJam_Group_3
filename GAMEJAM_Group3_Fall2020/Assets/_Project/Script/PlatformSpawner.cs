@@ -19,10 +19,12 @@ public class PlatformSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float Rate = SpawnRate * GameManager.WorldSimulationSpeed;
+
         if (NextSpawnTime < Time.time)
         {
             objectPooler.SpawnFromPool(Prefab[Random.Range(0, Prefab.Length)], transform.position, Quaternion.identity);
-            NextSpawnTime += SpawnRate;
+            NextSpawnTime += Rate;
         }
     }
 }
