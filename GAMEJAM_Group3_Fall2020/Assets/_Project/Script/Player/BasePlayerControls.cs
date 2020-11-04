@@ -4,7 +4,7 @@ using UnityEngine.Events;
 namespace Player
 {
     [RequireComponent(typeof(Rigidbody2D))][RequireComponent(typeof(DamageResponse))]
-    public class BasePlayerController : MonoBehaviour , IPlayerControls
+    public abstract class BasePlayerControls : MonoBehaviour , IPlayerControls
     {
     
         [Header("Events")]
@@ -13,13 +13,13 @@ namespace Player
 
         protected Rigidbody2D _rigidbody2D;
 
-        public DamageResponse playerDamageResponse { get; private set; }
+        public ICollidable playerDamageResponse { get; private set; }
         public UnityEvent OnTurnOn => onTurnOn;
         public UnityEvent OnTurnOff => onTurnOff;
 
         protected virtual void Awake()
         {
-            playerDamageResponse = GetComponent<DamageResponse>();
+            playerDamageResponse = GetComponent<ICollidable>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
         }
 
