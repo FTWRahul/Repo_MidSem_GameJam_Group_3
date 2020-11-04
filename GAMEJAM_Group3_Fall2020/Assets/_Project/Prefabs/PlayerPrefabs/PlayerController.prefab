@@ -45,6 +45,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31bd0e5790a59c64eb8c582ab12084da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1600069550543533703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56,6 +59,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CreaturePlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: onTurnOn.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: onTurnOn.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5287920399285023063}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: onTurnOn.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: onTurnOn.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: onTurnOn.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: onTurnOn.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: jumpTimeThreshold
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6869926021756094422, guid: af34d572a899b4c4aa722dd70d8161c7,
         type: 3}
@@ -114,6 +152,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af34d572a899b4c4aa722dd70d8161c7, type: 3}
+--- !u!1 &5287920399285023063 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6869926021756094416, guid: af34d572a899b4c4aa722dd70d8161c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1600069550543533703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5287920399285023057 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6869926021756094422, guid: af34d572a899b4c4aa722dd70d8161c7,
@@ -131,6 +175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GhostPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302591106854658571, guid: a443d5e0a1bb4954a9dfb202db665158,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4302591106854658572, guid: a443d5e0a1bb4954a9dfb202db665158,
         type: 3}
