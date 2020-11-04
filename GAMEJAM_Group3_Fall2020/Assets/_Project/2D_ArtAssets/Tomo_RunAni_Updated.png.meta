@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: a52ce0734edbd89448906c43c84a1b96
+guid: b4172da83c58f1942a498c35cbad0b1a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5233832180381287034
-    second: Tomo_RunAni_0
+      213: 5518544594740559372
+    second: Tomo_RunAni_Updated_0
   - first:
-      213: -4442834200084945821
-    second: Tomo_RunAni_1
+      213: -5586765408307679700
+    second: Tomo_RunAni_Updated_1
   - first:
-      213: -5524605846077924565
-    second: Tomo_RunAni_2
+      213: 3669283713871766356
+    second: Tomo_RunAni_Updated_2
   - first:
-      213: 8225022223069398991
-    second: Tomo_RunAni_3
+      213: 4174322184347272597
+    second: Tomo_RunAni_Updated_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -135,7 +135,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tomo_RunAni_0
+      name: Tomo_RunAni_Updated_0
       rect:
         serializedVersion: 2
         x: 0
@@ -149,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7282a553ae42a840800000000000000
-      internalID: 5233832180381287034
+      spriteID: c0eb9a6021fc59c40800000000000000
+      internalID: 5518544594740559372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomo_RunAni_1
+      name: Tomo_RunAni_Updated_1
       rect:
         serializedVersion: 2
         x: 200
@@ -170,14 +170,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364eafb85d1e752c0800000000000000
-      internalID: -4442834200084945821
+      spriteID: c2e616a0672d772b0800000000000000
+      internalID: -5586765408307679700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomo_RunAni_2
+      name: Tomo_RunAni_Updated_2
       rect:
         serializedVersion: 2
         x: 400
@@ -191,14 +191,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b9a7ce048a453b0800000000000000
-      internalID: -5524605846077924565
+      spriteID: 453e379d81aebe230800000000000000
+      internalID: 3669283713871766356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tomo_RunAni_3
+      name: Tomo_RunAni_Updated_3
       rect:
         serializedVersion: 2
         x: 600
@@ -212,8 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7ceb34226252270800000000000000
-      internalID: 8225022223069398991
+      spriteID: 5954d0009eb2ee930800000000000000
+      internalID: 4174322184347272597
       vertices: []
       indices: 
       edges: []
@@ -221,7 +221,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ffb21e2bcc661c14fa06ca6a2042b9bf
+    spriteID: a358f1baaa1c14e47ba21caf5727f4c3
     internalID: 0
     vertices: []
     indices: 
