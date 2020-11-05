@@ -675,8 +675,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2832405a10fbd834fbb44f481500ea9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnRate: 0.75
-  spawnChance: 0
+  minRate: 0.2
+  maxRate: 0.75
   Prefab:
   - {fileID: 1117223467170995143, guid: 349d68f3169e62145bf0ba379955463e, type: 3}
   - {fileID: 1282453024121712849, guid: f872635fb4304ab47aaf3a494bc3a2df, type: 3}
@@ -1056,7 +1056,7 @@ PrefabInstance:
     - target: {fileID: 612911679380062315, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1900178426107532084, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
@@ -1293,6 +1293,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6330618398714218391, guid: e8ef389c3f403224d9d1dcf6a65c3a52,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8320205971873803439, guid: b54afce3ced786d409a168d200231064,
+        type: 3}
     - target: {fileID: 8997421627177261054, guid: e8ef389c3f403224d9d1dcf6a65c3a52,
         type: 3}
       propertyPath: OnDeath.m_PersistentCalls.m_Calls.Array.size
@@ -1500,16 +1506,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HellLevelContainer
-      objectReference: {fileID: 0}
-    - target: {fileID: 5512990721242161850, guid: 014a465021b1075408c59885618ab8c6,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6799773533728156162, guid: 014a465021b1075408c59885618ab8c6,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 55.04984
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 014a465021b1075408c59885618ab8c6, type: 3}
