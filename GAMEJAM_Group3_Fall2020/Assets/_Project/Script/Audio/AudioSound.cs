@@ -10,8 +10,8 @@ public class AudioSound
 
     [Range(0f, 1f)]
     public float volume;
-    [Range(0f, 5f)]
-    public float pitch;
+    [Range(0.1f, 3f)]
+    public float pitch; //pitch is speed
     
     public bool loop;
 

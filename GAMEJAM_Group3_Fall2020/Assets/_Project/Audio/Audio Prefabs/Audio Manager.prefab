@@ -47,6 +47,6 @@ MonoBehaviour:
   - audioName: GhostRealmAmbience
     audioClipName: {fileID: 8300000, guid: 111dad3eff5242f47ad5df6ce1264fb3, type: 3}
     volume: 1
-    pitch: 5
+    pitch: 1
     loop: 1
     source: {fileID: 0}
