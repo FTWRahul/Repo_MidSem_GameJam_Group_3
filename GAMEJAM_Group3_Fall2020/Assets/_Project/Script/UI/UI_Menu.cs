@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class UI_Menu : MonoBehaviour
 {
+    public bool ButtonPressed = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,6 @@ public class UI_Menu : MonoBehaviour
 
     public void StartButton()
     {
-        SceneManager.LoadScene("Scene_Steven");
+        ButtonPressed = true;
     }
 }
