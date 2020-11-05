@@ -11,21 +11,6 @@ TextureImporter:
   - first:
       213: 1893101632871230102
     second: Ziton_Enemy_Animation_2
-  - first:
-      213: 6679638624152629938
-    second: Ziton_Enemy_Animation_3
-  - first:
-      213: 1484700422992667427
-    second: Ziton_Enemy_Animation_4
-  - first:
-      213: 6720656733073711694
-    second: Ziton_Enemy_Animation_5
-  - first:
-      213: 6410229755719953014
-    second: Ziton_Enemy_Animation_6
-  - first:
-      213: 864858319003106684
-    second: Ziton_Enemy_Animation_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -212,7 +197,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5c15a874a972c5b49b4849fa879b7af4
+    spriteID: 456a8a67e5ff1384984a18fc7acdcddd
     internalID: 0
     vertices: []
     indices: 
