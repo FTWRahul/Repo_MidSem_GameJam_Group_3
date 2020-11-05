@@ -1056,7 +1056,7 @@ PrefabInstance:
     - target: {fileID: 612911679380062315, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1900178426107532084, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
@@ -1083,15 +1083,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1900178427339786448, guid: f21923afae308254889d3bd45f11d20e,
+    - target: {fileID: 1900178426481657140, guid: f21923afae308254889d3bd45f11d20e,
+        type: 3}
+      propertyPath: xVelocity
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900178426753812397, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
       propertyPath: xVelocity
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900178427339786448, guid: f21923afae308254889d3bd45f11d20e,
+        type: 3}
+      propertyPath: xVelocity
+      value: 0.12
       objectReference: {fileID: 0}
     - target: {fileID: 1900178427339786451, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
       propertyPath: m_LocalScale.x
       value: 55.04984
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900178427802729693, guid: f21923afae308254889d3bd45f11d20e,
+        type: 3}
+      propertyPath: xVelocity
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 1900178427932558535, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
@@ -1127,6 +1142,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900178428001671841, guid: f21923afae308254889d3bd45f11d20e,
+        type: 3}
+      propertyPath: xVelocity
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 1900178428165810819, guid: f21923afae308254889d3bd45f11d20e,
+        type: 3}
+      propertyPath: xVelocity
+      value: 0.055
       objectReference: {fileID: 0}
     - target: {fileID: 5441043271955220980, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
@@ -1188,7 +1213,8 @@ PrefabInstance:
       propertyPath: xVelocity
       value: 1.4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1900178428165810816, guid: f21923afae308254889d3bd45f11d20e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f21923afae308254889d3bd45f11d20e, type: 3}
 --- !u!1001 &2036082924747512355
 PrefabInstance:
@@ -1206,6 +1232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: jumpForce
       value: 2850
+      objectReference: {fileID: 0}
+    - target: {fileID: 5287920399285023059, guid: e8ef389c3f403224d9d1dcf6a65c3a52,
+        type: 3}
+      propertyPath: jumpTimeThreshold
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 5695892472974564040, guid: e8ef389c3f403224d9d1dcf6a65c3a52,
         type: 3}
@@ -1473,7 +1504,12 @@ PrefabInstance:
     - target: {fileID: 5512990721242161850, guid: 014a465021b1075408c59885618ab8c6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799773533728156162, guid: 014a465021b1075408c59885618ab8c6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 55.04984
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 014a465021b1075408c59885618ab8c6, type: 3}
