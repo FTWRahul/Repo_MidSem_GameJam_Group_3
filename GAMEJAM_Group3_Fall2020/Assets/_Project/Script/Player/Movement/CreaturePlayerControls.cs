@@ -27,9 +27,9 @@ namespace Player.Movement
         private bool _isGrounded;
         
         //Private Properties
-        private bool hasJumpAvaliable => _timeBetweenLastJump >= jumpTimeThreshold;
-        private bool JumpCached => _timeSinceJumpCached < jumpCacheDuration;
-        private bool CanJump =>  hasJumpAvaliable && IsGrounded && JumpCached;
+        public bool hasJumpAvaliable => _timeBetweenLastJump >= jumpTimeThreshold;
+        public bool JumpCached => _timeSinceJumpCached < jumpCacheDuration;
+        public bool CanJump =>  hasJumpAvaliable && IsGrounded && JumpCached;
 
         public bool IsGrounded => _isGrounded;
         public event Action playerJumped;
@@ -43,7 +43,6 @@ namespace Player.Movement
             if (CanJump) 
             {
                 Jump();
-                _timeBetweenLastJump = 0;
             }
 
             UpdateJumpCache();
@@ -87,6 +86,7 @@ namespace Player.Movement
         private void Jump()
         {
             _rigidbody2D.AddForce(Vector2.up * (jumpForce * Time.fixedDeltaTime), ForceMode2D.Impulse);
+            _timeBetweenLastJump = 0;
             playerJumped?.Invoke();
         }
 
