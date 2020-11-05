@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 /// <summary>
 /// Deals damage to any tags defined in the editor for this object.
@@ -6,6 +7,7 @@
 public class OnCollisionDealDamage : MonoBehaviour
 {
     [SerializeField] private string[] damageableTag;
+    [SerializeField] private UnityEvent Damaged;
  
     //Checks if the collision occurred with an object that has a damageable Tag we defined, if so deal damage and break out 
     private void OnTriggerEnter2D(Collider2D other)
@@ -15,6 +17,7 @@ public class OnCollisionDealDamage : MonoBehaviour
             if (other.gameObject.CompareTag(damageTag))
             {
                 other.gameObject.GetComponent<DamageResponse>()?.TakeDamage();
+                Damaged?.Invoke();
                 break;
             }
         }

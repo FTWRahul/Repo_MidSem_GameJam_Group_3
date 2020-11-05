@@ -22,6 +22,7 @@ namespace Player
         public void SwitchToGhost()
         {
             _creaturePlayer.playerDamageResponse.OnDamageTaken.RemoveListener(SwitchToGhost);
+            GameManager.InvokeCreatureDeath();
             _creaturePlayer.TurnOff();
             _ghostPlayer.TurnOn();
             _ghostPlayer.playerDamageResponse.OnDamageTaken.AddListener(Die);
@@ -31,7 +32,8 @@ namespace Player
         {
             _ghostPlayer.playerDamageResponse.OnDamageTaken.RemoveListener(Die);
             //Whatever happens on Death
-            
+            GameManager.InvokeGhostDeath();
+
             OnDeath?.Invoke();
         }
 
@@ -39,6 +41,7 @@ namespace Player
         public void SwitchToCreature()
         {
             //Listen again for if player takes damage
+            GameManager.InvokeLifeObtained();
             _creaturePlayer.TurnOn();
             _ghostPlayer.TurnOff();
             _creaturePlayer.playerDamageResponse.OnDamageTaken.AddListener(SwitchToGhost);
