@@ -163,7 +163,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.59607846, g: 0.5131326, b: 0.2509804, a: 1}
-  m_Intensity: 13.97
+  m_Intensity: 22.2
   m_Range: 5.69719
   m_SpotAngle: 145.07805
   m_InnerSpotAngle: 21.80208
@@ -321,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 6799773533728156163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.56, z: 0}
-  m_LocalScale: {x: -55.049843, y: 17.45089, z: 17.45089}
+  m_LocalScale: {x: 55.04984, y: 17.45089, z: 17.45089}
   m_Children: []
   m_Father: {fileID: 6799773535166125567}
   m_RootOrder: 0
@@ -385,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae622052464efb341bcef50d4c3ebce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: -0.1
+  xVelocity: 0.12
   yVelocity: 0
 --- !u!1 &6799773534055849486
 GameObject:
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae622052464efb341bcef50d4c3ebce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: 0.025
+  xVelocity: 0.07
   yVelocity: 0
 --- !u!1 &6799773534203487766
 GameObject:
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae622052464efb341bcef50d4c3ebce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: 2
+  xVelocity: 1.4
   yVelocity: 0
 --- !u!61 &6799773534203487769
 BoxCollider2D:
@@ -676,9 +676,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.9811321, g: 0.6247775, b: 0.9760191, a: 1}
-  m_Intensity: 15.71
+  m_Intensity: 16.9
   m_Range: 5.6058793
-  m_SpotAngle: 120.99534
+  m_SpotAngle: 120
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
@@ -817,7 +817,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae622052464efb341bcef50d4c3ebce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: 0.006
+  xVelocity: 0.025
   yVelocity: 0
 --- !u!1 &6799773534435674188
 GameObject:
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae622052464efb341bcef50d4c3ebce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: 0.015
+  xVelocity: 0.055
   yVelocity: 0
 --- !u!1 &6799773534442562662
 GameObject:
@@ -1001,9 +1001,9 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 9.28
-  m_Range: 5.69719
+  m_Color: {r: 0.2494215, g: 0.78607273, b: 0.8962264, a: 1}
+  m_Intensity: 3.13
+  m_Range: 31.02
   m_SpotAngle: 145.07805
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae622052464efb341bcef50d4c3ebce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: 0.13
+  xVelocity: 0.16
   yVelocity: 0
 --- !u!1 &6799773535058710858
 GameObject:
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae622052464efb341bcef50d4c3ebce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xVelocity: 0.07
+  xVelocity: 0.1
   yVelocity: 0
 --- !u!1 &6799773535609590357
 GameObject:
