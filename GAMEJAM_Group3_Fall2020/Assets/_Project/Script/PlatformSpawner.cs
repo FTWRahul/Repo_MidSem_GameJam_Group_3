@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlatformSpawner : MonoBehaviour
 {
 
-    float NextSpawnTime;
+    float _timeSinceLastSpawn = 0;
+    float _nextSpawnTime = 0;
     public float minRate;
     public float maxRate;
     public GameObject[] Prefab;
@@ -14,21 +15,30 @@ public class PlatformSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NextSpawnTime = Time.time;
         objectPooler = ObjectPooler.Instance;
     }
     
     // Update is called once per frame
     void Update()
     {
-        minRate = minRate * GameManager.WorldSimulationSpeed;
-        maxRate = maxRate * GameManager.WorldSimulationSpeed;
-
-        if (NextSpawnTime < Time.time)
+        if (_timeSinceLastSpawn >= _nextSpawnTime)
         {
-            objectPooler.SpawnFromPool(Prefab[Random.Range(0, Prefab.Length)], transform.position, Quaternion.identity);
-            NextSpawnTime += Random.Range(minRate, maxRate);
+            SpawnObject();
+            _timeSinceLastSpawn += Random.Range(minRate, maxRate);
         }
+        else
+        {
+            _timeSinceLastSpawn += Time.deltaTime * GameManager.WorldSimulationSpeed;
+        }
+    }
+
+    private void SpawnObject()
+    {
+        int randIndex = Random.Range(0, Prefab.Length);
+        float randTime = Random.Range(minRate, maxRate);
+        objectPooler.SpawnFromPool(Prefab[randIndex], transform.position, Quaternion.identity);
+        _timeSinceLastSpawn = 0;
+        _nextSpawnTime = randTime;
     }
 }
 
