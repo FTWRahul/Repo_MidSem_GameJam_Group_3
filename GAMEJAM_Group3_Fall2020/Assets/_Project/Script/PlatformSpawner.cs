@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class PlatformSpawner : MonoBehaviour
 {
+<<<<<<< Updated upstream
     public float SpawnRate;
     public int spawnChance;
+=======
+>>>>>>> Stashed changes
     float NextSpawnTime;
+    public float minRate;
+    public float maxRate;
     public GameObject[] Prefab;
     ObjectPooler objectPooler;
 
@@ -20,12 +25,13 @@ public class PlatformSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float Rate = SpawnRate * GameManager.WorldSimulationSpeed;
+        minRate = minRate * GameManager.WorldSimulationSpeed;
+        maxRate = maxRate * GameManager.WorldSimulationSpeed;
 
         if (NextSpawnTime < Time.time)
         {
             objectPooler.SpawnFromPool(Prefab[Random.Range(0, Prefab.Length)], transform.position, Quaternion.identity);
-            NextSpawnTime += Rate;
+            NextSpawnTime += Random.Range(minRate, maxRate);
         }
     }
 }
