@@ -162,7 +162,7 @@ MonoBehaviour:
       m_Calls: []
   jumpForce: 2700
   groundedDistance: 1
-  jumpTimeThreshold: 0.05
+  jumpTimeThreshold: 0.02
   jumpCacheDuration: 0.01
   groundLayerMask:
     serializedVersion: 2

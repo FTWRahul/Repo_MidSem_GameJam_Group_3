@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance => _instance;
     
     
-    private static float _worldSimulationSpeed = 1f;
+    private static float _worldSimulationSpeed = 2f;
 
     public static float WorldSimulationSpeed
     {

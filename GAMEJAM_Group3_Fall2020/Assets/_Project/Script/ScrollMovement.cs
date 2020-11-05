@@ -25,6 +25,7 @@ public class ScrollMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        material.mainTextureOffset += offset * Time.deltaTime;
+        float Rate = xVelocity * GameManager.WorldSimulationSpeed;
+        material.mainTextureOffset += offset * Rate* Time.deltaTime;
     }
 }

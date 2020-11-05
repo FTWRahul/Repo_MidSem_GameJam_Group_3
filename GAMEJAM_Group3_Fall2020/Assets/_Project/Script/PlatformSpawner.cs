@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlatformSpawner : MonoBehaviour
 {
     public float SpawnRate;
+    public int spawnChance;
     float NextSpawnTime;
     public GameObject[] Prefab;
     ObjectPooler objectPooler;
@@ -15,7 +16,7 @@ public class PlatformSpawner : MonoBehaviour
         NextSpawnTime = Time.time;
         objectPooler = ObjectPooler.Instance;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
