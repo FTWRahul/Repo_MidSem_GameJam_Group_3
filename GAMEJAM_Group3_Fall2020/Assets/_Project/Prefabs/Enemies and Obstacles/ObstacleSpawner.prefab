@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7519132596940308593}
-  - component: {fileID: 7519132596940308592}
   - component: {fileID: 7519132596940308598}
   m_Layer: 0
   m_Name: ObstacleSpawner
@@ -32,26 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7519132596940308592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7519132596940308599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02ae48530f5b86649981b1fc2dd04565, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TestPreFab: {fileID: 0}
-  Pools:
-  - Prefab: {fileID: 1117223467170995143, guid: 349d68f3169e62145bf0ba379955463e,
-      type: 3}
-    Size: 10
-  - Prefab: {fileID: 1282453024121712849, guid: f872635fb4304ab47aaf3a494bc3a2df,
-      type: 3}
-    Size: 10
 --- !u!114 &7519132596940308598
 MonoBehaviour:
   m_ObjectHideFlags: 0
