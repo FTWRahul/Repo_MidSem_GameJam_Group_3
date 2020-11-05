@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class PlatformSpawner : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    public float SpawnRate;
-    public int spawnChance;
-=======
->>>>>>> Stashed changes
+
     float NextSpawnTime;
     public float minRate;
     public float maxRate;
