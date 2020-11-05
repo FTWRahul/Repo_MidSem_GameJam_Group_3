@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ObjectPooler : MonoBehaviour
 {
+    public GameObject TestPreFab;
+
     [System.Serializable]
     public class Pool
     {
@@ -60,4 +62,19 @@ public class ObjectPooler : MonoBehaviour
         return objectToSpawn;
     }
 
+    
+    public void ReturnToPool (GameObject Prefab)
+    {
+        if (!poolDictionary.ContainsKey(Prefab))
+        {
+            Debug.LogWarning("Pool with tag " + Prefab + "doesn't exist.");
+            return;
+        }
+
+        foreach (var currentPrefab in poolDictionary[Prefab])
+        {
+            currentPrefab.SetActive(false);
+        }
+
+    }
 }
