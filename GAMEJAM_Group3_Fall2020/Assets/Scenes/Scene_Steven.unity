@@ -694,7 +694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2832405a10fbd834fbb44f481500ea9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnRate: 3.5
+  SpawnRate: 7
   Prefab:
   - {fileID: 1117223467170995143, guid: 349d68f3169e62145bf0ba379955463e, type: 3}
 --- !u!4 &1220317844
@@ -705,7 +705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220317842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.46, y: -2.5, z: 0}
+  m_LocalPosition: {x: 13.46, y: -2.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -971,7 +971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934306764}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25.81, y: -2.47, z: 0}
+  m_LocalPosition: {x: 25.81, y: -1.09, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -989,8 +989,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2832405a10fbd834fbb44f481500ea9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnRate: 0
-  Prefab: []
+  SpawnRate: 4
+  Prefab:
+  - {fileID: 1282453024121712849, guid: f872635fb4304ab47aaf3a494bc3a2df, type: 3}
 --- !u!1 &2028097971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,6 +1293,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Rocks1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1282453024121712849, guid: f872635fb4304ab47aaf3a494bc3a2df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5637816927448276965, guid: f872635fb4304ab47aaf3a494bc3a2df,
         type: 3}
