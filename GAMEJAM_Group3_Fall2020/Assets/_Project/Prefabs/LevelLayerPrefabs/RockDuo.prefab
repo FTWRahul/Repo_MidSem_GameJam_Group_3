@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4460ff143a7e8e4bbc10d98c1fb2b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 6
+  _speed: 6
 --- !u!50 &4281618271394508959
 Rigidbody2D:
   serializedVersion: 4
@@ -86,7 +86,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageableTag:
-  - 
+  - Creature
+  Damaged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &683245659149830356
 BoxCollider2D:
   m_ObjectHideFlags: 0
