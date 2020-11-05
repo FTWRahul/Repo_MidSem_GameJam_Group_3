@@ -125,6 +125,16 @@ PrefabInstance:
       propertyPath: onTurnOff.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: jumpForce
+      value: 2850
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869926021756094420, guid: af34d572a899b4c4aa722dd70d8161c7,
+        type: 3}
+      propertyPath: jumpTimeThreshold
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 6869926021756094422, guid: af34d572a899b4c4aa722dd70d8161c7,
         type: 3}
       propertyPath: m_LocalPosition.x
