@@ -158,6 +158,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &320420600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5512990721242161850, guid: 014a465021b1075408c59885618ab8c6,
+    type: 3}
+  m_PrefabInstance: {fileID: 5596066889018743969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &320420603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320420600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f255f6900ff49a5ba2f2a68d795c118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnStartEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 320420600}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnAwakeEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisableEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &442992034 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1589126238626303327, guid: 868e71d7e30b72640b46435d9feb3a23,
@@ -597,7 +638,7 @@ Transform:
   m_LocalScale: {x: 0.26230666, y: 0.26230666, z: 0.26230666}
   m_Children: []
   m_Father: {fileID: 2041241647}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &909032403
 SpriteRenderer:
@@ -761,7 +802,7 @@ Transform:
   m_LocalScale: {x: 0.27004996, y: 0.27004996, z: 0.27004996}
   m_Children: []
   m_Father: {fileID: 2041241647}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1269120305
 SpriteRenderer:
@@ -828,7 +869,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1438056507
 Transform:
   m_ObjectHideFlags: 0
@@ -1165,6 +1206,16 @@ PrefabInstance:
         type: 3}
       propertyPath: xVelocity
       value: 0.055
+      objectReference: {fileID: 0}
+    - target: {fileID: 3172833782933781456, guid: f21923afae308254889d3bd45f11d20e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292446231484853232, guid: f21923afae308254889d3bd45f11d20e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5441043271955220980, guid: f21923afae308254889d3bd45f11d20e,
         type: 3}
@@ -1576,7 +1627,7 @@ PrefabInstance:
     - target: {fileID: 1589126238626303327, guid: 868e71d7e30b72640b46435d9feb3a23,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6685573155879055569, guid: 868e71d7e30b72640b46435d9feb3a23,
         type: 3}
