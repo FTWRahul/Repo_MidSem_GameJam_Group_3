@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class MoveObjectRightToLeft : MonoBehaviour
 {
-    public float Speed;
+    public float _speed;
     Rigidbody2D MovingObject;
+
+    public float Speed
+    {
+        get => _speed;
+        set => _speed = value;
+    }
 
     private void Awake()
     {
