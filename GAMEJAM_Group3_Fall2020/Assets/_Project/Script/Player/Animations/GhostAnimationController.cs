@@ -6,9 +6,13 @@ namespace Player.Animations
     {
         private static readonly int MovementAxis = Animator.StringToHash("MovementAxis");
 
-        public void ToggleRootMotion()
+        public void TurnOnRootMotion()
         {
-            _animator.applyRootMotion = !_animator.hasRootMotion;
+            _animator.applyRootMotion = true;
+        }
+        public void TurnOffRootMotion()
+        {
+            _animator.applyRootMotion = false; //!_animator.hasRootMotion;
         }
 
         private void Update()

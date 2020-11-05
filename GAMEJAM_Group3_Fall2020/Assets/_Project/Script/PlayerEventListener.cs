@@ -7,7 +7,7 @@ public class PlayerEventListener : MonoBehaviour
     public UnityEvent OnGhostDeath;
     public UnityEvent OnLifeObtained;
     
-    private void Start()
+    private void Awake()
     {
         GameManager.OnCreatureDeath += CreatureDied;
         GameManager.OnGhostDeath += GhostDied;
