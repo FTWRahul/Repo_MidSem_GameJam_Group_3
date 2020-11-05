@@ -13,7 +13,7 @@ namespace Player.Animations
         {
             base.Awake();
             _creaturePlayer = GetComponent<CreaturePlayerControls>();
-            _creaturePlayer.playerJumped += () => _animator.SetTrigger(JumpHash);
+            _creaturePlayer.playerJumped += Jump;
         }
 
         private void Update()
@@ -21,9 +21,13 @@ namespace Player.Animations
             _animator.SetBool(IsGroundedHash, _creaturePlayer.IsGrounded);
         }
 
+        private void Jump()
+        {
+            _animator.SetTrigger(JumpHash);
+        }
         private void OnDestroy()
         {
-            _creaturePlayer.playerJumped -= () => _animator.SetTrigger("Jump");
+            _creaturePlayer.playerJumped -= Jump;
         }
     }
 }
