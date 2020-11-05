@@ -24,7 +24,6 @@ public class PlatformSpawner : MonoBehaviour
         if (_timeSinceLastSpawn >= _nextSpawnTime)
         {
             SpawnObject();
-            _timeSinceLastSpawn += Random.Range(minRate, maxRate);
         }
         else
         {
