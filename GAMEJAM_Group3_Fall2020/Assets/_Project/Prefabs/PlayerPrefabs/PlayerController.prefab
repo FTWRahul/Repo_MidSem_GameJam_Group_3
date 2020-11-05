@@ -288,6 +288,16 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4302591106854658575, guid: a443d5e0a1bb4954a9dfb202db665158,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.08690223
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302591106854658575, guid: a443d5e0a1bb4954a9dfb202db665158,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.6639008
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a443d5e0a1bb4954a9dfb202db665158, type: 3}
 --- !u!1 &6330618398714218385 stripped
