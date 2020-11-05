@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Player.Movement;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Player
