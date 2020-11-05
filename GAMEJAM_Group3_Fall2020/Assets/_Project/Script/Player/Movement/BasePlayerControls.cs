@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 
-namespace Player
+namespace Player.Movement
 {
     [RequireComponent(typeof(Rigidbody2D))][RequireComponent(typeof(DamageResponse))]
     public abstract class BasePlayerControls : MonoBehaviour , IPlayerControls

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4302591106854658568}
   - component: {fileID: 4302591106854658569}
   - component: {fileID: 4302591106854658570}
+  - component: {fileID: 6400843330664937079}
   m_Layer: 10
   m_Name: GhostPlayer
   m_TagString: Ghost
@@ -209,3 +210,15 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   GhostMoveDistance: 350
+--- !u!114 &6400843330664937079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4302591106854658571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ad029c8eaceb3c4488b47f7e1e16c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

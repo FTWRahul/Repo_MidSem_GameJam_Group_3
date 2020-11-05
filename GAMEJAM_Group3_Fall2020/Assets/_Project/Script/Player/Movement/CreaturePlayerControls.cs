@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-namespace Player
+namespace Player.Movement
 {
     /// <summary>
     /// The controls when the player is in his creature mode.
@@ -28,8 +29,11 @@ namespace Player
         //Private Properties
         private bool hasJumpAvaliable => _timeBetweenLastJump >= jumpTimeThreshold;
         private bool JumpCached => _timeSinceJumpCached < jumpCacheDuration;
-        private bool CanJump =>  hasJumpAvaliable && _isGrounded && JumpCached;
-        
+        private bool CanJump =>  hasJumpAvaliable && IsGrounded && JumpCached;
+
+        public bool IsGrounded => _isGrounded;
+        public event Action playerJumped;
+
         private void FixedUpdate()
         {
             _isGrounded = GroundCheck();
@@ -83,6 +87,7 @@ namespace Player
         private void Jump()
         {
             _rigidbody2D.AddForce(Vector2.up * (jumpForce * Time.fixedDeltaTime), ForceMode2D.Impulse);
+            playerJumped?.Invoke();
         }
 
         //Visualization for the grounded raycast check
