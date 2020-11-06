@@ -8,8 +8,6 @@ namespace Player
     {
         private IPlayerControls _ghostPlayer;
         private IPlayerControls _creaturePlayer;
-
-        public UnityEvent OnDeath;
         
         private void Start()
         {
@@ -34,8 +32,6 @@ namespace Player
             _ghostPlayer.playerDamageResponse.OnDamageTaken.RemoveListener(Die);
             //Whatever happens on Death
             GameManager.InvokeGhostDeath();
-
-            OnDeath?.Invoke();
         }
 
         [ContextMenu("Switch to player")]

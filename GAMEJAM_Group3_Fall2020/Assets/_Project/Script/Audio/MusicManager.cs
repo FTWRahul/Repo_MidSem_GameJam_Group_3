@@ -1,20 +1,47 @@
-﻿using System;
+﻿using System.Collections;
+using UberPlanetary.Core.ExtensionMethods;
 using UnityEngine;
 
 namespace Audio
 {
     public class MusicManager : MonoBehaviour
     {
-        public GameObject ghost;
-        public GameObject creature;
-
         public AudioSource ghostMusic;
         public AudioSource creatureMusic;
 
-        private void Update()
+        public float timeToFadeIn;
+        public AnimationCurve fadeInCurve;
+
+        public void LerpAudio()
         {
-            ghostMusic.volume = ghost.activeSelf ? 1 : 0;
-            creatureMusic.volume = creature.activeSelf ? 1 : 0;
+            StartCoroutine(FadeInGhostAudio());
+            creatureMusic.volume = 0;
+        }
+
+        public void CreatureAudioOn()
+        {
+            StartCoroutine(FadeInCreatureAudio());
+            ghostMusic.volume = 0;
+        }
+        private IEnumerator FadeInGhostAudio()
+        {
+            float t = 0;
+            while (t <= timeToFadeIn)
+            {
+                ghostMusic.volume = Mathf.Lerp(0, 1, fadeInCurve.Evaluate(t.Remap(0, timeToFadeIn, 0, 1)));
+                t += Time.deltaTime;
+                yield return new WaitForEndOfFrame();
+            }
+        }
+        private IEnumerator FadeInCreatureAudio()
+        {
+            float t = 0;
+            while (t <= timeToFadeIn)
+            {
+                creatureMusic.volume = Mathf.Lerp(0, 1, fadeInCurve.Evaluate(t.Remap(0, timeToFadeIn, 0, 1)));
+                t += Time.deltaTime;
+                yield return new WaitForEndOfFrame();
+            }
         }
     }
 }

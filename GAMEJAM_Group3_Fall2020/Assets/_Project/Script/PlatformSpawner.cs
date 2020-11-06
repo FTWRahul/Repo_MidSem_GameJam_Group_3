@@ -16,6 +16,7 @@ public class PlatformSpawner : MonoBehaviour
     void Start()
     {
         objectPooler = ObjectPooler.Instance;
+        _nextSpawnTime = Random.Range(minRate, maxRate);
     }
     
     // Update is called once per frame

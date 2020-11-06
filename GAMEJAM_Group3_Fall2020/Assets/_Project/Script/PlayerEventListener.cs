@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UberPlanetary.Core.ExtensionMethods;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class PlayerEventListener : MonoBehaviour
@@ -6,6 +9,10 @@ public class PlayerEventListener : MonoBehaviour
     public UnityEvent OnCreatureDeath;
     public UnityEvent OnGhostDeath;
     public UnityEvent OnLifeObtained;
+    public UnityEvent onGameOver;
+
+    public float timeToLerp;
+    public AnimationCurve fadeInCurve;
     
     private void Awake()
     {
@@ -37,6 +44,17 @@ public class PlayerEventListener : MonoBehaviour
     }
     public void SetSimSpeed(float val)
     {
-        GameManager.WorldSimulationSpeed = val;
+        StartCoroutine(StopSimulationSpeed(val, GameManager.WorldSimulationSpeed));
+    }
+    private IEnumerator StopSimulationSpeed(float val, float oldVal)
+    {
+        float t = 0;
+        while (t <= timeToLerp)
+        {
+            GameManager.WorldSimulationSpeed = Mathf.Lerp(oldVal, val, fadeInCurve.Evaluate(t.Remap(0, timeToLerp, 0, 1)));
+            t += Time.deltaTime;
+            yield return new WaitForEndOfFrame();
+        }
+        onGameOver?.Invoke();
     }
 }
