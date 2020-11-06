@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneTransitioner : MonoBehaviour
 {
+    UI_Menu menuItem;
     bool WasButtonPressed;
     public Animator transition;
     public float transitionTime = 1f;
@@ -19,7 +20,16 @@ public class SceneTransitioner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        WasButtonPressed = GameObject.Find("Canvas").GetComponent<UI_Menu>().ButtonPressed;
+        if(menuItem == null)
+        {
+            menuItem = GameObject.Find("Canvas").GetComponent<UI_Menu>();            
+            if(menuItem == null)
+            {
+                return;
+            }
+        }
+
+        WasButtonPressed = menuItem.ButtonPressed;
         if (WasButtonPressed == true)
         {
             StartCoroutine(LoadMyScene());

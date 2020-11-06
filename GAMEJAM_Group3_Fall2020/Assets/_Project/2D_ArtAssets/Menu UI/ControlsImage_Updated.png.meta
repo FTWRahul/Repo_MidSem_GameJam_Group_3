@@ -1,12 +1,405 @@
 fileFormatVersion: 2
 guid: 5dac5dceb2372d14ba9fc438d33180ff
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7695946662610436680
+    second: ControlsImage_Updated_0
+  - first:
+      213: 6105674085023384504
+    second: ControlsImage_Updated_1
+  - first:
+      213: 1176470391157986427
+    second: ControlsImage_Updated_2
+  - first:
+      213: 2903332342112476459
+    second: ControlsImage_Updated_3
+  - first:
+      213: 7657285309771172526
+    second: ControlsImage_Updated_4
+  - first:
+      213: 1888112657257172405
+    second: ControlsImage_Updated_5
+  - first:
+      213: -4058637462900193311
+    second: ControlsImage_Updated_6
+  - first:
+      213: 6381768828135788619
+    second: ControlsImage_Updated_7
+  - first:
+      213: -775206647171472277
+    second: ControlsImage_Updated_8
+  - first:
+      213: 2014255707865216725
+    second: ControlsImage_Updated_9
+  - first:
+      213: 6379784884890652183
+    second: ControlsImage_Updated_10
+  - first:
+      213: 781063338794202098
+    second: ControlsImage_Updated_11
+  - first:
+      213: -1999248850510427686
+    second: ControlsImage_Updated_12
+  - first:
+      213: 6060001437061702853
+    second: ControlsImage_Updated_13
+  - first:
+      213: -2967677424306041328
+    second: ControlsImage_Updated_14
+  - first:
+      213: 3182595727166083029
+    second: ControlsImage_Updated_15
+  - first:
+      213: 4209078654569887769
+    second: ControlsImage_Updated_16
+  - first:
+      213: 2696562913332610933
+    second: ControlsImage_Updated_17
+  - first:
+      213: -2007048994313301665
+    second: ControlsImage_Updated_18
+  - first:
+      213: -1027708957717927340
+    second: ControlsImage_Updated_19
+  - first:
+      213: 3679864371202018855
+    second: ControlsImage_Updated_20
+  - first:
+      213: -5049726195974252271
+    second: ControlsImage_Updated_21
+  - first:
+      213: -5104061317204457067
+    second: ControlsImage_Updated_22
+  - first:
+      213: -1472388295230821821
+    second: ControlsImage_Updated_23
+  - first:
+      213: 943167028565004334
+    second: ControlsImage_Updated_24
+  - first:
+      213: -5392797302404521732
+    second: ControlsImage_Updated_25
+  - first:
+      213: 7989405976416067273
+    second: ControlsImage_Updated_26
+  - first:
+      213: 4910939416644135510
+    second: ControlsImage_Updated_27
+  - first:
+      213: -7636115959467467110
+    second: ControlsImage_Updated_28
+  - first:
+      213: -3169993805466378506
+    second: ControlsImage_Updated_29
+  - first:
+      213: -1703649915623512539
+    second: ControlsImage_Updated_30
+  - first:
+      213: -776218193258091633
+    second: ControlsImage_Updated_31
+  - first:
+      213: -4994381001077854346
+    second: ControlsImage_Updated_32
+  - first:
+      213: 3473502012035954506
+    second: ControlsImage_Updated_33
+  - first:
+      213: 3615626165871908706
+    second: ControlsImage_Updated_34
+  - first:
+      213: -4552092461764821817
+    second: ControlsImage_Updated_35
+  - first:
+      213: 5051949955301859847
+    second: ControlsImage_Updated_36
+  - first:
+      213: 2904616527271251152
+    second: ControlsImage_Updated_37
+  - first:
+      213: -703164747957423930
+    second: ControlsImage_Updated_38
+  - first:
+      213: -1062717364789436149
+    second: ControlsImage_Updated_39
+  - first:
+      213: -1398772442278038818
+    second: ControlsImage_Updated_40
+  - first:
+      213: -5437484188624235040
+    second: ControlsImage_Updated_41
+  - first:
+      213: -7101559380912289857
+    second: ControlsImage_Updated_42
+  - first:
+      213: 2345168751938731854
+    second: ControlsImage_Updated_43
+  - first:
+      213: 4322998449151124362
+    second: ControlsImage_Updated_44
+  - first:
+      213: 3271425390148133547
+    second: ControlsImage_Updated_45
+  - first:
+      213: 3649757973495354053
+    second: ControlsImage_Updated_46
+  - first:
+      213: 5774869949796390327
+    second: ControlsImage_Updated_47
+  - first:
+      213: 2745317734842196959
+    second: ControlsImage_Updated_48
+  - first:
+      213: 442806626475047497
+    second: ControlsImage_Updated_49
+  - first:
+      213: 1740559202152949837
+    second: ControlsImage_Updated_50
+  - first:
+      213: -3188799272594487540
+    second: ControlsImage_Updated_51
+  - first:
+      213: -2782021182228282253
+    second: ControlsImage_Updated_52
+  - first:
+      213: 5059501371034983771
+    second: ControlsImage_Updated_53
+  - first:
+      213: 2063417687912027091
+    second: ControlsImage_Updated_54
+  - first:
+      213: 8979332550245092229
+    second: ControlsImage_Updated_55
+  - first:
+      213: -2427769203879690963
+    second: ControlsImage_Updated_56
+  - first:
+      213: -7907072705323963232
+    second: ControlsImage_Updated_57
+  - first:
+      213: -9095060124210248995
+    second: ControlsImage_Updated_58
+  - first:
+      213: 8944459646367037350
+    second: ControlsImage_Updated_59
+  - first:
+      213: 5001399118340774711
+    second: ControlsImage_Updated_60
+  - first:
+      213: 4871305280110486898
+    second: ControlsImage_Updated_61
+  - first:
+      213: 5479764842233411868
+    second: ControlsImage_Updated_62
+  - first:
+      213: 1702201960556863902
+    second: ControlsImage_Updated_63
+  - first:
+      213: -8353628042355553281
+    second: ControlsImage_Updated_64
+  - first:
+      213: 2760191592417204958
+    second: ControlsImage_Updated_65
+  - first:
+      213: 3017726281633842282
+    second: ControlsImage_Updated_66
+  - first:
+      213: -4958264488266760964
+    second: ControlsImage_Updated_67
+  - first:
+      213: 6353923045388688342
+    second: ControlsImage_Updated_68
+  - first:
+      213: 5633088076670014455
+    second: ControlsImage_Updated_69
+  - first:
+      213: 4214497184511363703
+    second: ControlsImage_Updated_70
+  - first:
+      213: -413433832762224164
+    second: ControlsImage_Updated_71
+  - first:
+      213: -7044141985483859041
+    second: ControlsImage_Updated_72
+  - first:
+      213: -4340711908720634286
+    second: ControlsImage_Updated_73
+  - first:
+      213: 2467154631034732342
+    second: ControlsImage_Updated_74
+  - first:
+      213: 2503841485723747767
+    second: ControlsImage_Updated_75
+  - first:
+      213: -7442741835345000542
+    second: ControlsImage_Updated_76
+  - first:
+      213: 3746213346112464852
+    second: ControlsImage_Updated_77
+  - first:
+      213: -6190697701972354902
+    second: ControlsImage_Updated_78
+  - first:
+      213: 738185487492424528
+    second: ControlsImage_Updated_79
+  - first:
+      213: 8035137269783818532
+    second: ControlsImage_Updated_80
+  - first:
+      213: 4489045557040782943
+    second: ControlsImage_Updated_81
+  - first:
+      213: 2573573503506893404
+    second: ControlsImage_Updated_82
+  - first:
+      213: -7069471108920123376
+    second: ControlsImage_Updated_83
+  - first:
+      213: 5221515406814767325
+    second: ControlsImage_Updated_84
+  - first:
+      213: 7141469883739234105
+    second: ControlsImage_Updated_85
+  - first:
+      213: -8929387152488636392
+    second: ControlsImage_Updated_86
+  - first:
+      213: 7055720418305637404
+    second: ControlsImage_Updated_87
+  - first:
+      213: -5425040710424637077
+    second: ControlsImage_Updated_88
+  - first:
+      213: -4664253595020490427
+    second: ControlsImage_Updated_89
+  - first:
+      213: 5558130896081761752
+    second: ControlsImage_Updated_90
+  - first:
+      213: 8746792791946510336
+    second: ControlsImage_Updated_91
+  - first:
+      213: -455930914457819885
+    second: ControlsImage_Updated_92
+  - first:
+      213: 1658657951776736062
+    second: ControlsImage_Updated_93
+  - first:
+      213: -4585757324372326920
+    second: ControlsImage_Updated_94
+  - first:
+      213: 8937072630585178050
+    second: ControlsImage_Updated_95
+  - first:
+      213: -2945498089632032142
+    second: ControlsImage_Updated_96
+  - first:
+      213: -9130057495753022441
+    second: ControlsImage_Updated_97
+  - first:
+      213: -9130818524666281594
+    second: ControlsImage_Updated_98
+  - first:
+      213: -6193301381513523196
+    second: ControlsImage_Updated_99
+  - first:
+      213: -2322222444424145778
+    second: ControlsImage_Updated_100
+  - first:
+      213: -2994267721072931301
+    second: ControlsImage_Updated_101
+  - first:
+      213: -6703936824991758955
+    second: ControlsImage_Updated_102
+  - first:
+      213: 1626310358037377989
+    second: ControlsImage_Updated_103
+  - first:
+      213: 6797984951076921116
+    second: ControlsImage_Updated_104
+  - first:
+      213: 5934983741598306564
+    second: ControlsImage_Updated_105
+  - first:
+      213: 217563820002155339
+    second: ControlsImage_Updated_106
+  - first:
+      213: 6575797012860086693
+    second: ControlsImage_Updated_107
+  - first:
+      213: -684101301092627303
+    second: ControlsImage_Updated_108
+  - first:
+      213: 6159572282077066836
+    second: ControlsImage_Updated_109
+  - first:
+      213: 3171031646556312728
+    second: ControlsImage_Updated_110
+  - first:
+      213: -2062894799607683817
+    second: ControlsImage_Updated_111
+  - first:
+      213: 5249598584995868354
+    second: ControlsImage_Updated_112
+  - first:
+      213: 5006822040583405270
+    second: ControlsImage_Updated_113
+  - first:
+      213: 8287029891274766853
+    second: ControlsImage_Updated_114
+  - first:
+      213: -7945724768166454973
+    second: ControlsImage_Updated_115
+  - first:
+      213: -734283177533315262
+    second: ControlsImage_Updated_116
+  - first:
+      213: -6786982160822315208
+    second: ControlsImage_Updated_117
+  - first:
+      213: 463134653552959424
+    second: ControlsImage_Updated_118
+  - first:
+      213: -1786085206763925526
+    second: ControlsImage_Updated_119
+  - first:
+      213: 4665652089653337307
+    second: ControlsImage_Updated_120
+  - first:
+      213: -1952108023884054277
+    second: ControlsImage_Updated_121
+  - first:
+      213: 4231089654827947705
+    second: ControlsImage_Updated_122
+  - first:
+      213: -3006437266428698603
+    second: ControlsImage_Updated_123
+  - first:
+      213: -2093988319807983465
+    second: ControlsImage_Updated_124
+  - first:
+      213: -3039408654219660569
+    second: ControlsImage_Updated_125
+  - first:
+      213: 4560389874837983220
+    second: ControlsImage_Updated_126
+  - first:
+      213: 1461720475577619221
+    second: ControlsImage_Updated_127
+  - first:
+      213: -6176760890963046557
+    second: ControlsImage_Updated_128
+  - first:
+      213: 2608840545834192159
+    second: ControlsImage_Updated_129
+  - first:
+      213: 5791329338288727798
+    second: ControlsImage_Updated_130
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +427,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +442,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -71,13 +464,109 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ControlsImage_Updated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd70c40941823590800000000000000
+      internalID: -7695946662610436680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlsImage_Updated_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b380282b36bbb450800000000000000
+      internalID: 6105674085023384504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlsImage_Updated_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b749cb96699a35010800000000000000
+      internalID: 1176470391157986427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControlsImage_Updated_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d5484f165ba4820800000000000000
+      internalID: 2903332342112476459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using TMPro;
 
 public class SeedCollectable : MonoBehaviour, ICollectable
 {
     public int numOfSeeds;
-    public Text Score;
+    public TextMeshProUGUI Score;
     public UnityEvent onCollected;
 
     public UnityEvent OnCollected
@@ -16,7 +17,6 @@ public class SeedCollectable : MonoBehaviour, ICollectable
 
     public void Collect()
     {
-
         OnCollected?.Invoke();
         numOfSeeds += 1;
         Score.text = numOfSeeds.ToString();
